@@ -1,0 +1,29 @@
+{
+  "name": "playwright_percy",
+  "version": "1.0.0",
+  "description": "Automation test with playwright",
+  "main": "index.js",
+  "scripts": {
+    "pw:test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuocBaoNguyen11295/playwright_percy.git"
+  },
+  "keywords": [
+    "js",
+    "playwright",
+    "percy"
+  ],
+  "author": "Quoc Bao Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuocBaoNguyen11295/playwright_percy/issues"
+  },
+  "homepage": "https://github.com/QuocBaoNguyen11295/playwright_percy#readme",
+  "dependencies": {
+    "@percy/playwright": "^1.0.4",
+    "@playwright/test": "^1.29.1",
+    "prettier": "^2.8.1"
+  }
+}
